@@ -1,0 +1,774 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 856px;
+  height: 1987px;
+  margin: 0 auto;
+  background: #e8e8e8;
+  overflow: hidden;
+}
+.flex-row {
+  position: relative;
+  width: 782px;
+  height: 26px;
+  margin: 30px 0 0 36px;
+  z-index: 22;
+}
+.frame-1 {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  top: 0;
+  left: 163px;
+  background: url(./assets/images/adef37eb-7561-49d0-b137-f4ab741d79c0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+  overflow: hidden;
+}
+.electro-engineering {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 0;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+}
+.products {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 436px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.news {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 533px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.about-company {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 614px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17px;
+  top: 9px;
+  left: 717px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.flex-row-b {
+  position: relative;
+  width: 818.768px;
+  height: 494px;
+  margin: 54px 0 0 37px;
+  z-index: 10;
+}
+.rectangle {
+  position: absolute;
+  width: 454px;
+  height: 494px;
+  top: 0;
+  left: 0;
+  font-size: 0px;
+  background: #fafbf8;
+  z-index: 6;
+  border-radius: 10px;
+}
+.electro-engineering-2 {
+  display: block;
+  position: relative;
+  height: 37px;
+  margin: 38px 0 0 39px;
+  color: #fe9008;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.explosion-proof-equipment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 378px;
+  height: 74px;
+  margin: 0 0 0 39px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 37.426px;
+  text-align: left;
+  z-index: 8;
+}
+.product-certificates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 398px;
+  height: 154px;
+  margin: 21px 0 0 39px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: left;
+  z-index: 11;
+}
+.rectangle-3 {
+  position: relative;
+  width: 395px;
+  height: 56px;
+  margin: 43px 0 0 39px;
+  background: #f2f2f2;
+  z-index: 12;
+  border-radius: 10px;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 161px;
+  height: 56px;
+  top: 0;
+  left: 234px;
+  cursor: pointer;
+  background: #fe9008;
+  border: none;
+  z-index: 13;
+  border-radius: 10px;
+}
+.find-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 22px;
+  top: 17px;
+  left: 59px;
+  color: #f7f7f7;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.search-button {
+  position: absolute;
+  width: 134px;
+  height: 22px;
+  top: 17px;
+  left: 14px;
+  cursor: pointer;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  z-index: 14;
+}
+.rectangle-5 {
+  position: absolute;
+  width: 306px;
+  height: 494px;
+  top: 0;
+  left: 475px;
+  background: #fafbf8;
+  z-index: 9;
+  border-radius: 10px;
+}
+.explosion-proof-equipment-6 {
+  position: absolute;
+  width: 381.537px;
+  height: 379.164px;
+  top: 52.918px;
+  left: 437.232px;
+  background: url(./assets/images/3f46b630-7e78-4488-8ca3-a92c87627d39.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.product-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 166px;
+  height: 37px;
+  margin: 54px 0 0 37px;
+  color: #fe9008;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 17;
+}
+.line {
+  position: relative;
+  width: 783.003px;
+  height: 1px;
+  margin: 14px 0 0 35px;
+  background: url(./assets/images/80207e00-6274-4f03-834a-3c37eff6d0d8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 51;
+}
+.flex-row-a {
+  position: relative;
+  width: 840px;
+  height: 174px;
+  margin: 26px 0 0 0;
+  z-index: 33;
+}
+.image {
+  position: absolute;
+  width: 216px;
+  height: 174px;
+  top: 0;
+  left: 49px;
+  background: url(./assets/images/1726678f8dcac9f09ed05b5bd699fc3a74bbdd70.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+  border-radius: 10px;
+}
+.image-7 {
+  position: absolute;
+  width: 199px;
+  height: 158px;
+  top: 8px;
+  left: 591px;
+  background: url(./assets/images/ae29bb8f97141ceec190cd21a9ec8a072d3c9db9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+  border-radius: 10px;
+}
+.image-8 {
+  position: absolute;
+  width: 241px;
+  height: 150px;
+  top: 11px;
+  left: 300px;
+  background: url(./assets/images/ba5071c3abc2f098639ffbbf8f1af354e79b0a2e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 30;
+  border-radius: 10px;
+}
+.chevron-left {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 69px;
+  left: 0;
+  z-index: 20;
+  overflow: hidden;
+}
+.vector {
+  position: relative;
+  width: 13.276px;
+  height: 21.5px;
+  margin: 10.75px 0 0 14.333px;
+  background: url(./assets/images/7e038cb2-ba9f-4c26-a3c3-86fa01fbcf97.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 21;
+}
+.chevron-right {
+  position: absolute;
+  width: 44px;
+  height: 43px;
+  top: 69px;
+  left: 796px;
+  z-index: 18;
+  overflow: hidden;
+}
+.vector-9 {
+  position: relative;
+  width: 13.585px;
+  height: 21.5px;
+  margin: 10.75px 0 0 15.748px;
+  background: url(./assets/images/65c39f55-7719-4f73-8346-8542aaa70a0a.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.flex-row-c {
+  position: absolute;
+  width: 858px;
+  height: 678px;
+  top: 947px;
+  left: 35px;
+  z-index: 45;
+}
+.rectangle-a {
+  position: absolute;
+  width: 204px;
+  height: 113px;
+  top: 0;
+  left: 16px;
+  font-size: 0px;
+  background: #fafbf8;
+  z-index: 36;
+  border-radius: 10px;
+}
+.led-light {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 166px;
+  height: 66px;
+  margin: 12px 0 0 16px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 42;
+}
+.bun-100 {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 13px 0 0 140px;
+  color: #fe9008;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 37;
+}
+.rectangle-b {
+  position: absolute;
+  width: 204px;
+  height: 113px;
+  top: 0;
+  left: 287px;
+  font-size: 0px;
+  background: #fafbf8;
+  z-index: 35;
+  border-radius: 10px;
+}
+.led-lights-dsp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 166px;
+  height: 66px;
+  margin: 12px 0 0 19px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 41;
+}
+.bun-150 {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 13px 0 0 138px;
+  color: #fe9008;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 38;
+}
+.rectangle-c {
+  position: absolute;
+  width: 204px;
+  height: 113px;
+  top: 0;
+  left: 575px;
+  font-size: 0px;
+  background: #fafbf8;
+  z-index: 34;
+  border-radius: 10px;
+}
+.tvk-n {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 166px;
+  height: 66px;
+  margin: 12px 0 0 16px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 40;
+}
+.bun {
+  display: block;
+  position: relative;
+  height: 22px;
+  margin: 13px 0 0 146px;
+  color: #fe9008;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 39;
+}
+.explosion-proof-equipment-d {
+  position: absolute;
+  width: 223px;
+  height: 233.711px;
+  top: 95.968px;
+  left: 635px;
+  background: url(./assets/images/40ac2b47-491d-47bd-882f-ab90c7c92d1f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+}
+.news-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 181px;
+  left: 2px;
+  color: #fc893a;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.line-f {
+  position: absolute;
+  width: 783.003px;
+  height: 1px;
+  top: 237px;
+  left: 0;
+  background: url(./assets/images/d53fb03b-cc55-49f6-8d20-0c0dd8e14caf.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.image-10 {
+  position: absolute;
+  width: 381px;
+  height: 392px;
+  top: 286px;
+  left: 12px;
+  background: url(./assets/images/20c8811d-361c-4140-825c-6cada07bab9c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 45;
+  border-radius: 10px;
+}
+.rectangle-11 {
+  position: absolute;
+  width: 378px;
+  height: 171px;
+  top: 286px;
+  left: 414px;
+  background: #fafbf8;
+  z-index: 25;
+  border-radius: 10px;
+}
+.ao-eridan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 321px;
+  height: 132px;
+  top: 23px;
+  left: 23px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 26;
+}
+.flex-row-e {
+  position: absolute;
+  width: 893.411px;
+  height: 568px;
+  top: 1423px;
+  left: 0;
+  z-index: 43;
+}
+.rectangle-12 {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  top: 0;
+  left: 449px;
+  background: #fafbf8;
+  z-index: 27;
+  border-radius: 10px;
+}
+.kkv-e-ex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 179px;
+  height: 110px;
+  top: 48px;
+  left: 4px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 47;
+}
+.rectangle-13 {
+  position: absolute;
+  width: 185px;
+  height: 202px;
+  top: 0;
+  left: 642px;
+  background: #fe9008;
+  z-index: 28;
+  border-radius: 10px;
+}
+.ashasvetotehnika-new-release {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 173px;
+  height: 154px;
+  top: 26px;
+  left: 7px;
+  color: #fafbf8;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.592px;
+  text-align: center;
+  z-index: 46;
+}
+.explosion-proof-equipment-14 {
+  position: absolute;
+  width: 240.411px;
+  height: 238.289px;
+  top: 169px;
+  left: 653px;
+  background: url(./assets/images/0848680b-cb80-4e1b-b2ce-2ba3b708810b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 43;
+}
+.info-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 68px;
+  height: 19px;
+  top: 219px;
+  left: 97px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 48;
+}
+.rectangle-15 {
+  position: absolute;
+  width: 856px;
+  height: 265px;
+  top: 303px;
+  left: 0;
+  font-size: 0px;
+  background: #fafbf8;
+  z-index: 29;
+}
+.electrotehengineering-official-dealer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 772px;
+  height: 38px;
+  margin: 198px 0 0 42px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 32;
+  overflow: hidden;
+}
+.frame-16 {
+  position: absolute;
+  width: 148px;
+  height: 138px;
+  top: 46px;
+  left: 42px;
+  background: url(./assets/images/31d57280-8892-4e2e-99f2-74f3a31de848.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 31;
+  overflow: hidden;
+}
+.plus {
+  position: absolute;
+  width: 110px;
+  height: 19px;
+  top: 118px;
+  left: 712px;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 49;
+}
+.empty {
+  position: relative;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+}
+.phone-number {
+  position: relative;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+  text-decoration: underline;
+}
+.address {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 291px;
+  height: 19px;
+  top: 156px;
+  left: 531px;
+  color: #000000;
+  font-family: Istok Web, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.713px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 50;
+}
